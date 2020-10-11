@@ -1,7 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhp, faPython, faJava, faJsSquare, faHtml5, faCss3, faReact, faAngular, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 import React, { Component } from 'react';
-import { Grid, Cell, List, ListItem, ProgressBar } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 // import { ProgressBar } from 'react-bootstrap';
 
 class About extends Component {

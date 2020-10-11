@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import { Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 
 class Projects extends Component {
