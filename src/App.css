@@ -1,0 +1,115 @@
+body{
+  margin : 0px !important;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+.header {
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.homepage_sec {
+  background: #ED213A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 105vh;
+}
+
+div[id$="_sec"] {
+  background: #ADA996;
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+  margin: 0;
+  min-height: 105vh;
+}
+
+h1, h3 {
+  margin: 0 !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.avatarPic {
+  border-radius: 25%;
+  height: 300px;
+  padding-top: 10px;
+  /* text-align: center; */
+}
+
+.aboutPic {
+  border-radius: 50%;
+  height: 300px;
+  padding-top: 10px;
+  width: 335px;
+}
+
+.banner_text {
+  background-color: black;
+  border-radius: 10px;
+  opacity: .9;
+  width: 60%;
+  color: white;
+  margin: auto;
+}
+
+.banner_text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.banner_text hr {
+  border-top: 5px dotted white;
+  width: 80%;
+  margin: auto;
+}
+
+.banner_text p {
+  color: white;
+  font-size: 22px;
+  padding: 1em;
+}
+
+.social_links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social_links a {
+  color: white;
+  font-size: 1.5em;
+  padding: 8px;
+}
+
+.img_span {
+  width: 60px;
+  float: right;
+  /* mix-blend-mode: multiply; */
+}
+
+#projects_sec {
+  display: flex;
+}
+
+.project_desc {
+  height: 100px;
+  overflow-y: scroll !important;
+}
