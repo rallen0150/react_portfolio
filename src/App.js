@@ -14,7 +14,7 @@ function App() {
             
             <Header className="header" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Robert Allen</Link>} scroll>
                     <Navigation>
-                        <Link className="page-scroll" to="/about">About Me</Link>
+                        <Link className="page-scroll" to="/">About Me</Link>
                         <Link className="page-scroll" to="/resume">Resume</Link>
                         {/* <Link className="page-scroll" to="/technologies">Technologies Used</Link> */}
                         <Link className="page-scroll" to="/projects">Projects</Link>

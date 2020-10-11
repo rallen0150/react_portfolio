@@ -27,6 +27,10 @@ div[id$="_sec"] {
   min-height: 105vh;
 }
 
+#about_sec {
+  min-height: 20vh !important;
+}
+
 h1, h3 {
   margin: 0 !important;
 }
