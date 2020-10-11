@@ -17,9 +17,9 @@ class About extends Component {
                             <div>
                                 {/* <h1>Software Engineer</h1> */}
                                 <p style={{ "fontSize": "20px" }}>I am a graduate of the Back-End Engineering course from The Iron Yard in Greenville, South Carolina. I learned the skills needed to prepare myself for a career in web development as well as the process that goes into this line of work.<br/><br/>
-                                Since attending the Iron Yard I have worked mainly as a <b>Backend Engineer</b> so I have been learning React and Angular to get familiar with frontend technologies. My main goal in the near future is to become a <b><i>Full-Stack Engineer</i></b>
+                                Since attending the Iron Yard, I have worked mainly as a <b>Back-End Engineer</b> so I have been learning React and Angular to get familiar with Front-End technologies. My main goal in the near future is to become a <b><i>Full-Stack Engineer</i></b>.
                                 <br/><br/>
-                                In my free time I am a nerd at heart. I love to play video games and watching movies. However I do like to go out and explore new places. Now that I live in Eugene, OR I love to go to hiking trails or drive to the coast. I also play in multiple rec leagues to play softball or flag football. I (maybe to a fault) am a major University of South Carolina fan. Growing up I live and breath USC and I am still the same loyal fan as I was growing up.</p>
+                                In my free time I am a nerd at heart. I love to play video games and watch movies. However, I do like to go out and explore new places. Now that I live in Eugene, OR, I enjoy exploring hiking trails or driving to the coast. I also join multiple rec leagues to play softball or flag football. I (maybe to a fault) am a major University of South Carolina fan. Growing up, I have lived and breathed USC, and I am still the same loyal fan as I was growing up.</p>
                             </div>
                         </Cell>
                         <Cell col={2}></Cell>

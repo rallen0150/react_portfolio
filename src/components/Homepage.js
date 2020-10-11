@@ -14,7 +14,7 @@ class Homepage extends Component {
                             <img className="avatarPic center" alt="avatar" src="images/myAvatar.png"/>
                         </div>
                         <div className="banner_text">
-                            <h1>Software Engineer</h1>
+                            <h1>Robert Allen<br/>Software Engineer</h1>
                             <hr/>
                             <p className="main_languages">PHP | Java/Spring Boot | Python/Django | HTML | CSS | JavaScript | MySQL</p>
                             <div className="social_links">
