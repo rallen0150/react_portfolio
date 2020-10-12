@@ -15,6 +15,8 @@ class Resume extends Component {
                         <h2>Robert Allen</h2>
                         <h4 style={{color: 'grey'}}>Software Engineer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '95%'}}/>
+                        <Button raised primary ripple href={PDF} target="_blank">View Resume</Button>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '95%'}}/>
                         <p>A Software Engineer offering enthusiasm and understanding of various programming languages. Looking to join an organization where the opportunity for growth and personal development is embraced.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '95%'}}/>
                         <h5>Address</h5>
@@ -23,8 +25,6 @@ class Resume extends Component {
                         <p>(864) 561-8074</p>
                         <h5>Email</h5>
                         <p>rallen0150@gmail.com</p>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '95%'}}/>
-                        <Button raised primary ripple href={PDF} target="_blank">View Resume</Button>
                         <hr style={{borderTop: '3px solid #833fb2', width: '95%'}}/>
                         <h2>Skills</h2>
                         <List>
