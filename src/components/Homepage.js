@@ -16,7 +16,7 @@ class Homepage extends Component {
                         <div className="banner_text">
                             <h3>Robert Allen</h3><br/><h1>Software Engineer</h1>
                             <hr/>
-                            <p className="main_languages" style={{ "textAlgin": "center" }}>PHP | Java/Spring Boot | Python/Django | HTML | CSS | JavaScript | MySQL</p>
+                            <p className="main_languages">PHP | Java/Spring Boot | Python/Django | HTML | CSS | JavaScript | MySQL</p>
                             <div className="social_links">
                                 <a href="https://www.linkedin.com/in/robert-allen-03ba5b132/">
                                     <FontAwesomeIcon size={"4x"} icon={faLinkedin} />
