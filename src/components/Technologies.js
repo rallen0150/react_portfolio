@@ -51,13 +51,13 @@ class Technologies extends Component {
                                 <span className="img_span">
                                     <FontAwesomeIcon icon={faReact} size={"2x"}/>
                                 </span>
-                                <ProgressBar progress={30} style={{ height: "15px" }}/>
+                                <ProgressBar progress={35} style={{ height: "15px" }}/>
                             </ListItem>
                             <ListItem>
                                 <span className="img_span">
                                     <FontAwesomeIcon icon={faAngular} size={"2x"}/>
                                 </span>
-                                <ProgressBar progress={20} style={{ height: "15px" }}/>
+                                <ProgressBar progress={15} style={{ height: "15px" }}/>
                             </ListItem>
                             <ListItem>
                                 <span className="img_span">
