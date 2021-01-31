@@ -3,12 +3,31 @@ import { Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 
 class Projects extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+        this.handleOpenDialog2 = this.handleOpenDialog2.bind(this);
+        this.handleCloseDialog2 = this.handleCloseDialog2.bind(this);
+      }
+    
+      handleOpenDialog2() {
+        this.setState({
+          openDialog2: true
+        });
+      }
+    
+      handleCloseDialog2() {
+        this.setState({
+          openDialog2: false
+        });
+      }
+
     render() {
         return(
             <div id="projects_sec">
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{height: '176px', background: 'url(images/project_pics/Chowster.png) center / cover'}} >Chowster</CardTitle>
+                    <CardTitle style={{height: '176px', background: 'url(images/project_pics/chowster/Chowster.png) center / cover'}} >Chowster</CardTitle>
                     <CardText className="project_desc">
                         Chowster is a foodtruck locator application that incorporates the Google Maps API. The app is based off of geolocations from Google Maps, so the truck driver won't have to give a latitude and longitude, but will give an address.The app is split into 2 different interactions, the truck driver or the user. The truck driver sets their location, logo, and menu to show to the user. Once the location is set, the truck's logo will appear on the map.The user will be able to look on the map, or the list of trucks, to find a truck around their location. The map centers around the location of the user so they can see which truck is in their area. The user will be able to rate the different trucks and leave comments about the service. Also if a user gives their email address then they will recieve an email of the truck's new location if the driver chooses to give that location to the users who favorited their truck.
                     </CardText>
@@ -20,7 +39,19 @@ class Projects extends Component {
 
                 {/* Project 2 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{height: '176px', background: 'url(images/project_pics/url.png) center / cover'}} >URL Shortner</CardTitle>
+                    <CardTitle style={{height: '176px', background: 'url(images/project_pics/videogame-library/game-title.png) center / cover', cursor: 'pointer' }} onClick={this.handleOpenDialog2} >Video Game Library/Search</CardTitle>
+                    <CardText className="project_desc">
+                        This video game library was my first true React project. I wanted to use an external API to connect from a React app, so I built a video game search using the <a href='https://rawg.io/'>Rawg.io API</a>. You get to search a game you want and then you get the description, screenshots, where to find/buy the game online, and related games to what you searched. You are also able to navigate to the system's, genre's and publisher's page which is a description and top games for them.
+                    </CardText>
+                    <CardActions border>
+                        <Button href="https://github.com/rallen0150/video-game-library" target='_blank' colored>GitHub</Button>
+                        <Button href="https://robbie-video-library.netlify.app/"target='_blank' colored>Live Demo</Button>
+                    </CardActions>
+                </Card>
+
+                {/* Project 3 */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{height: '176px', background: 'url(images/project_pics/url-shortener/url.png) center / cover'}} >URL Shortner</CardTitle>
                     <CardText className="project_desc">
                         The URL Shortener will take any url and create a shorter url to link to that page. The user who wants to shorten a url will be allowed to make the new url public or private. The public urls can be seen by anyone, but private can only be seen by the user who first shortened the url.
                     </CardText>
@@ -30,9 +61,9 @@ class Projects extends Component {
                     </CardActions>
                 </Card>
 
-                {/* Project 3 */}
+                {/* Project 4 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{height: '176px', background: 'url(images/project_pics/bank_report.png) center / cover'}} >Iron Bank</CardTitle>
+                    <CardTitle style={{height: '176px', background: 'url(images/project_pics/iron-bank/bank_report.png) center / cover'}} >Iron Bank</CardTitle>
                     <CardText className="project_desc">
                         The Iron Bank is an online banking application. The user will be able to see how much money they have in their account. The user can only see their account and they will be able to do 3 different transactions: withdraw money, deposit money, or transfer money to another user. To transfer money, the user will need to know another user's id number.
                     </CardText>
