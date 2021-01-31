@@ -56,7 +56,7 @@ class Projects extends Component {
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{height: '176px', background: 'url(images/project_pics/videogame-library/game-title.png) center / cover', cursor: 'pointer' }} onClick={this.handleOpenDialog2} >Video Game Library/Search</CardTitle>
                     <CardText className="project_desc">
-                        This video game library was my first true React project. I wanted to use an external API to connect from a React app, so I built a video game search using the <a href='https://rawg.io/' target="_blank">Rawg.io API</a>. You get to search a game you want and then you get the description, screenshots, where to find/buy the game online, and related games to what you searched. You are also able to navigate to the system's, genre's and publisher's page which is a description and top games for them.
+                        This video game library was my first true React project. I wanted to use an external API to connect from a React app, so I built a video game search using the <a href='https://rawg.io/' target="_blank" rel="noopener noreferrer">Rawg.io API</a>. You get to search a game you want and then you get the description, screenshots, where to find/buy the game online, and related games to what you searched. You are also able to navigate to the system's, genre's and publisher's page which is a description and top games for them.
                     </CardText>
                     <CardActions border>
                         <Button href="https://github.com/rallen0150/video-game-library" target='_blank' colored>GitHub</Button>
