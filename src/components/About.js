@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-// import { ProgressBar } from 'react-bootstrap';
 import Homepage from './Homepage';
 
 class About extends Component {
