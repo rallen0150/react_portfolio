@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PDF from '../documents/resume/RobertAllen_Resume.pdf';
+import PDF from '../documents/resume/RobertAllenResume.pdf';
 import { Button, Grid, Cell, List, ListItem, ProgressBar } from 'react-mdl';
 import Education from './Education';
 import Experience from './Experience';
@@ -13,11 +13,11 @@ class Resume extends Component {
                 <Grid>
                     <Cell col={4}>
                         <h2>Robert Allen</h2>
-                        <h4 style={{color: 'grey'}}>Software Engineer</h4>
+                        <h4 style={{color: 'grey'}}>Web App Developer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '95%'}}/>
                         <Button raised primary ripple href={PDF} target="_blank">View Resume</Button>
                         <hr style={{borderTop: '3px solid #833fb2', width: '95%'}}/>
-                        <p>A Software Engineer offering enthusiasm and understanding of various programming languages. Looking to join an organization where the opportunity for growth and personal development is embraced.</p>
+                        <p>A Web App Developer offering enthusiasm and understanding of various programming languages. Looking to join an organization where the opportunity for growth and personal development is embraced.</p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '95%'}}/>
                         <h5>Address</h5>
                         <p>Eugene, OR</p>
@@ -116,7 +116,7 @@ class Resume extends Component {
                         endMonth={"present"}
                         endYear={""}
                         company={"MedProcure, LLC"}
-                        jobName="Software Engineer"
+                        jobName="Web App Developer"
                         jobDescription="I started as a member of a small team to assist our senior level developer maintain 4 of our applications using LAMP stack. When our company expanded and that senior level developer left to do a different project, I led the new developers to learn our system and assisted them to build a new application. We spent 3-4 months developing a new application (that is similar to the 3 I was previously working on) before we went live with the new application. Then I moved to a new project where I learned Java and Spring on my own to build the new internal tool. This tool is keeping track of all transactions that go through our servers and I am creating a web based application to show what is flowing through the servers and if there are errors with these documents."
                         />
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-// import { ProgressBar } from 'react-bootstrap';
 import Homepage from './Homepage';
 
 class About extends Component {
@@ -15,7 +14,7 @@ class About extends Component {
                         </Cell>
                         <Cell col={8}>
                             <div>
-                                {/* <h1>Software Engineer</h1> */}
+                                {/* <h1>Web App Developer</h1> */}
                                 <p style={{ "fontSize": "20px" }}>I am a graduate of the Back-End Engineering course from The Iron Yard in Greenville, South Carolina. I learned the skills needed to prepare myself for a career in web development as well as the process that goes into this line of work.<br/><br/>
                                 Since attending the Iron Yard, I have worked mainly as a <b>Back-End Engineer</b> so I have been learning React and Angular to get familiar with Front-End technologies. My main goal in the near future is to become a <b><i>Full-Stack Engineer</i></b>.
                                 <br/><br/>

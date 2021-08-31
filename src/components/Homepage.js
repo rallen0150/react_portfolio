@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-// import { ProgressBar } from 'react-bootstrap';
 
 class Homepage extends Component {
     render() {
@@ -14,7 +13,7 @@ class Homepage extends Component {
                             <img className="avatarPic center" alt="avatar" src="images/myAvatar.png"/>
                         </div>
                         <div className="banner_text">
-                            <h3>Robert Allen</h3><br/><h1>Software Engineer</h1>
+                            <h3>Robert Allen</h3><br/><h1>Web App Developer</h1>
                             <hr/>
                             <p className="main_languages">PHP | Java/Spring Boot | Python/Django | HTML | CSS | JavaScript | MySQL</p>
                             <div className="social_links">
