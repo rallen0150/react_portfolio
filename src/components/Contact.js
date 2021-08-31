@@ -3,8 +3,6 @@ import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faSkype } from '@fortawesome/free-brands-svg-icons';
-// import axios from 'axios';
-
 
 class Contact extends Component {
   render() {
